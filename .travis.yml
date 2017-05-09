@@ -12,9 +12,9 @@ install:
     - npm install -g firebase-tools
 
 before_script:
-	- chmod +x ./script/cibuild
-	- export TZ=Asia/Jakarta
-	- date
+    - chmod +x ./script/cibuild
+    - export TZ=Asia/Jakarta
+    - date
 
 script: ./script/cibuild
 
