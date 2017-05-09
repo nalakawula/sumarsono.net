@@ -1,5 +1,6 @@
 # sumarouno.github.io/sumarsono.net
 
+Kode sumber untuk laman [sumarsono.net](http://www.sumarsono.net/)
 
 ## Lisensi
 
