@@ -12,7 +12,7 @@ author:             Sumarsono
 email:              sumarsono.wongbandar@gmail.com
 description:        'Ikatlah ilmu dengan tulisan'
 # the subpath of your site, e.g. /blog
-baseurl:            '/sumarsono.net'
+baseurl:            ''
 permalink:          pretty
 # the base hostname & protocol for your site
 url:                https://sumarsono.net
