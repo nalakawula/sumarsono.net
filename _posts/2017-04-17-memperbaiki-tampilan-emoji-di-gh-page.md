@@ -3,7 +3,7 @@ layout: post
 title: "memperbaiki tampilan emoji di gh-page"
 date: 2017-04-17 15:52:42
 ---
-Setelah berhasil memasang [jemoji](https://sumarouno.github.io/menambah-emoji-di-gh-page/){: target="_blank"} , ternyata ada kendala, tampilan emojinya terlalu **GEDE** <emoji>:laughing:</emoji>
+Setelah berhasil memasang [jemoji]({{site.url}}/2017/04/17/menambah-emoji-di-gh-page/){: target="_blank"} , ternyata ada kendala, tampilan emojinya terlalu **GEDE** <emoji>:laughing:</emoji>
 
 Akhirnya saya tanyakan ke group pegelinux, disana dapat solasi <emoji>:laughing:</emoji>. Disarankan untuk mengatur ukurannya via css.
 

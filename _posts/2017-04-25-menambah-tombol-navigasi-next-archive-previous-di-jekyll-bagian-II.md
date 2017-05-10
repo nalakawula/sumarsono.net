@@ -3,7 +3,7 @@ layout: post
 title: "Menambah Tombol Navigasi Next Archive Previous di Jekyll bagian II"
 date: 2017-04-25 09:08:23
 ---
-Pada artikel [sebelumnya](https://sumarouno.github.io/menambah-tombol-navigasi-next-archive-previous-di-jekyll/){: target="_blank"}, sudah ditulis caranya. Namun, saya kurang puas dengan hasilnya.
+Pada artikel [sebelumnya]({{site.url}}/2017/04/18/menambah-tombol-navigasi-next-archive-previous-di-jekyll/){: target="_blank"}, sudah ditulis caranya. Namun, saya kurang puas dengan hasilnya.
 
 Nah, suatu ketika saya berkunjung ke blog teman, navigasinya bagus eui.. bentuknya tombol. Kemudian saya putuskan untuk meniru dari blog teman saya. Berikut ini source code nya:
 {% raw %}
