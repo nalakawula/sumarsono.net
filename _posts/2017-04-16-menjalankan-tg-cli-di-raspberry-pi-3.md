@@ -3,7 +3,7 @@ layout: post
 title:  Menjalankan tg-cli di raspberry pi 3
 date:   2017-4-16  17:44:00
 excerpt: "Pengalaman menjalankan telegram cli di raspberry pi 3"
-tag: [Raspberry Pi 3]
+tags: [Raspberry Pi 3]
 comments: true
 ---
 
@@ -16,7 +16,7 @@ Sebenarnya, di laman repo tg-cli yaitu https://github.com/vysheng/tg.git sudah d
 <hr>
 ## You will need
 
-**Working internet connection** <emoji>:laughing:</emoji>
+**Working internet connection** :laughing:
 
 ## Check this out
 
@@ -33,7 +33,7 @@ cd tg
 ```shell
 nano tgl/mtproto-utils.c
 ```
-Cari **assert (0); // As long as nobody ever uses this code, assume** yang berada pada **line 101 dan 115** , comment kedua baris tsb.
+Cari `assert (0); // As long as nobody ever uses this code, assume` yang berada pada **line 101 dan 115** , comment kedua baris tsb.
 
 5. Pasang dependensi yang dibutuhkan
 ```shell
@@ -53,4 +53,3 @@ bin/telegram-cli -k tg/tg-server.pub -W
 <hr>
 
 Nah itu tadi tentang apa yang saya lakukan, jangan tanya kenapa kok gini kenapa kok gitu, ini maksudnya apa, dst. Karena saya tidak mudeng. wkwkwk
-

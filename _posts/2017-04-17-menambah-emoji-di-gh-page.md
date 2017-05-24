@@ -3,11 +3,11 @@ layout: post
 title:  Menambah Emoji di gh-pages
 date:   2017-4-17 12:08:00
 excerpt: "Pengalaman menambah emoji ke gh-pages"
-tag: [jekyll]
+tags: [jekyll]
 comments: true
 ---
 
-Sebenarnya ini iseng aja, <emoji>:laughing:</emoji> Biar static page punya saya *kece* saya menambah emoji kesini.
+Sebenarnya ini iseng aja, :laughing: Biar static page punya saya *kece* saya menambah emoji kesini.
 
 Nah, saya tulis saja pengalaman itu kesini, biar blog ini ada isinya.
 

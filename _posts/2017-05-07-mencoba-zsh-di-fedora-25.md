@@ -2,6 +2,7 @@
 layout: post
 title: "Mencoba ZSH di Fedora 25"
 date: 2017-05-07 19:12:25
+tags: [fedora]
 ---
 
 Berawal dari perbincangan di group telegram, Saya jadi ingin mencoba (lagi) `ZSH` untuk menggantikan `BASH`. Salah satu yang saya suka dari ZSH adalah tampilannya yang menarik, ditambah lagi dengan adanya `Oh My Zsh`.

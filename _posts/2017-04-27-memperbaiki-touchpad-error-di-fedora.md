@@ -2,6 +2,7 @@
 layout: post
 title: "Memperbaiki Touchpad Error di Fedora"
 date: 2017-04-27 20:44:40
+tags: [fedora]
 ---
 
 Beberapa waktu yang lalu, saya jenuh dengan **GNOME**. Oleh sebab itu saya memasang **PLASMA**.

@@ -3,7 +3,7 @@ layout: post
 title:  Raspberry pi 3 Headless Mode
 date:   2017-4-14  21:21:00
 excerpt: "Pengalaman menjalankan raspberry pi 3 headless mode"
-tag: [Raspberry Pi 3]
+tags: [Raspberry Pi 3]
 comments: true
 ---
 
@@ -40,8 +40,8 @@ sudo dd if=/lokasi/image/raspbian.img of=/lokasi/microsd/sdx bs=4MB && sync
 5. Tunggu proses dd sampai selesai
 6. Kalau sudah selesai _eject_ lalu pasang ke laptop lagi.
 7. Enable <code>ssh</code>, caranya:
-- masuk ke folder **boot**
-- buat file dengan nama **ssh** (tanpa ekstensi, tanpa isi)
+- masuk ke folder `boot`
+- buat file dengan nama `ssh` (tanpa ekstensi, tanpa isi)
 
 8. Kalau sudah selesai _eject_ lalu pasang ke raspberry pi 3 dan hidupkan raspi 3 nya.
 9. Sembari menunggu raspi3 untuk boot, siapkan beberapa hal berikut:
@@ -52,7 +52,7 @@ sudo dd if=/lokasi/image/raspbian.img of=/lokasi/microsd/sdx bs=4MB && sync
 ```shell
 sudo nmap -sP 10.42.1.0/24
 ```
-**10.42.1.0/24** dapat darimana? dari <code>ifconfig</code> . Nah nanti muncul begini:
+`10.42.1.0/24` dapat darimana? dari <code>ifconfig</code> . Nah nanti muncul begini:
 ```shell
 Starting Nmap 7.40 ( https://nmap.org ) at 2017-04-16 11:51 WIB
 Nmap scan report for 10.42.1.10
@@ -62,7 +62,7 @@ Nmap scan report for 10.42.1.53
 Host is up (0.00022s latency).
 ```
 
-11. Setelah diperoleh IP address milik raspi misalnya 10.42.1.53, lakukan ssh ke raspi 3, dengan **user: pi dan pass: raspberry** Kalau di windows bisa menggunakan putty atau bitvise ssh client.
+11. Setelah diperoleh IP address milik raspi misalnya 10.42.1.53, lakukan ssh ke raspi 3, dengan `user: pi` dan `pass: raspberry` Kalau di windows bisa menggunakan putty atau bitvise ssh client.
 Contohnya:
 ```shell
 ssh pi@10.42.1.53

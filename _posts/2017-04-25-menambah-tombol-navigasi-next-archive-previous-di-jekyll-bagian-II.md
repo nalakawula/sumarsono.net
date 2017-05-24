@@ -2,8 +2,9 @@
 layout: post
 title: "Menambah Tombol Navigasi Next Archive Previous di Jekyll bagian II"
 date: 2017-04-25 09:08:23
+tags: [jekyll]
 ---
-Pada artikel [sebelumnya]({{site.url}}/2017/04/18/menambah-tombol-navigasi-next-archive-previous-di-jekyll/){: target="_blank"}, sudah ditulis caranya. Namun, saya kurang puas dengan hasilnya.
+Pada artikel [sebelumnya]({{ site.baseurl }}{% post_url 2017-04-18-menambah-tombol-navigasi-next-archive-previous-di-jekyll %}), sudah ditulis caranya. Namun, saya kurang puas dengan hasilnya.
 
 Nah, suatu ketika saya berkunjung ke blog teman, navigasinya bagus eui.. bentuknya tombol. Kemudian saya putuskan untuk meniru dari blog teman saya. Berikut ini source code nya:
 {% raw %}
@@ -44,7 +45,7 @@ nah berikut ini kode 'css' biar jadi cantik
     border-radius:3px;
     box-shadow:0 1px 2px rgba(0,0,0,0.05);
     text-align: center;
-    
+
 }
 
 .page-navigation li {
@@ -73,4 +74,3 @@ nah berikut ini kode 'css' biar jadi cantik
 
 Hasilnya, seperti yang anda lihat di bawah post ini. :+1:
 <hr>
-

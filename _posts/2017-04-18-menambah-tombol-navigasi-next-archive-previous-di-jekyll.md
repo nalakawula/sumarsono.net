@@ -2,6 +2,7 @@
 layout: post
 title: "Menambah tombol navigasi next archive previous di jekyll"
 date: 2017-04-18 08:03:23
+tags: [jekyll]
 ---
 Beberapa hari ini, saya mainan *static site* dengan memanfaatkan jekyll dan gh-page.
 
@@ -24,7 +25,7 @@ Oleh karena itu, hari ini saya menambahkan fitur itu.
         <a class="next" href="{{page.next.url}}"> {{page.next.title}} »</a>
       {% endif %}
     </div>
-    ``` 
+    ```
     {% endraw %}
 
 2. edit <code>css</code> . Tambahkan:
@@ -52,4 +53,3 @@ Oleh karena itu, hari ini saya menambahkan fitur itu.
 
 Selesai
 <hr>
-

@@ -2,23 +2,21 @@
 layout: post
 title: "memperbaiki tampilan emoji di gh-page"
 date: 2017-04-17 15:52:42
+tags: [jekyll]
 ---
-Setelah berhasil memasang [jemoji]({{site.url}}/2017/04/17/menambah-emoji-di-gh-page/){: target="_blank"} , ternyata ada kendala, tampilan emojinya terlalu **GEDE** <emoji>:laughing:</emoji>
+Setelah berhasil memasang [jemoji]({{ site.baseurl }}{% post_url 2017-04-17-menambah-emoji-di-gh-page %}) , ternyata ada kendala, tampilan emojinya terlalu **GEDE** :laughing:
 
-Akhirnya saya tanyakan ke group pegelinux, disana dapat solasi <emoji>:laughing:</emoji>. Disarankan untuk mengatur ukurannya via css.
+Akhirnya saya tanyakan ke group pegelinux, disana dapat solasi :laughing:. Disarankan untuk mengatur ukurannya via `css`.
 
-<hr>
-
-Akhirnya saya tambahkan di file <code>css</code> :
-{% highlight css %}
+Akhirnya saya tambahkan di file `css`:
+```css
 emoji {
     display: inline-block;
     height: 1em;
     width: auto;
 }
-{% endhighlight %}
-
+```
 contoh penggunaanya di post:
-`<emoji>:+1:</emoji>` nanti jadi <emoji>:+1:</emoji>
+`:+1:` nanti jadi :+1:
 
-dan tara...selesai, emoji tampil dengan normal, <emoji>:+1:</emoji>
+dan tara...selesai, emoji tampil dengan normal, :+1:
