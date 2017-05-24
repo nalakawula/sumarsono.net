@@ -7,7 +7,7 @@
 
 future: true
 # Site settings
-title:              sumarsono.id
+title:              sumarsono.net
 author:             Sumarsono
 email:              sumarsono.wongbandar@gmail.com
 description:        'Ikatlah ilmu dengan tulisan'
@@ -15,7 +15,7 @@ description:        'Ikatlah ilmu dengan tulisan'
 baseurl:            ''
 permalink:          pretty
 # the base hostname & protocol for your site
-url:                https://sumarsono.id
+url:                https://sumarsono.net
 github_username:    sumarouno
 telegram_username:  unomind
 disqus_username:    sumarouno
