@@ -15,9 +15,9 @@ markdown    : kramdown
 highlighter : pygments
 
 # SEO settings
-title: dotX
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+title: sumarsono.net
+description: "Sebuah Kisah"
+keywords: "sumarsono, sumarsono.net, jekyll, github, arduino, raspberry pi, linux"
 
 # Site settings
 url: https://sumarsono.net

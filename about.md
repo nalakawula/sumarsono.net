@@ -5,7 +5,10 @@ subtitle: It's Free!
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Feel free to contact one of my contacts listed in [Contact page]({{site.baseurl}}/contact/).
 
-You can find the source code for the Jekyll new theme at: [jekyll-new](https://github.com/jglovier/jekyll-new)
-You can find the source code for Jekyll at [jekyll](https://github.com/jekyll/jekyll)
+And If you think this site is worth to follow, just [`click this subscribe link`]({{site.baseurl}}/feed.xml) to get its RSS feed.
+
+Articles on this Pages are licensed as <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="display:inline; border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"></a>.
+
+<br />
