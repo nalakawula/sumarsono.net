@@ -2,19 +2,11 @@
 layout: default
 ---
 
-<article class="post">
-
-  <header class="post-header intro">
-    <div class="intro-in">
-      <h1 class="post-title">{{ page.title }}</h1>
-      {% if page.subtitle %}
-        <h2 class="intro-subtitle">{{ page.subtitle }}</h2>
-      {% endif %}
+<div class="container-fluid index">
+  <div class="row index all-posts">
+    <h2 class="header" itemprop="headline"> {{ page.title }} </h2>
+    <div class="col-md-12 content-panel articles">
+       {{ content }}
     </div>
-  </header>
-
-  <div class="post-content container">
-    {{ content }}
   </div>
-
-</article>
+</div>

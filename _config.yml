@@ -1,44 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-sass:
-  sass_dir: _sass
-  style: expanded # compressed # expanded
-
-# permalink and highlighter
-permalink   : pretty
-markdown    : kramdown
-highlighter : pygments
-
-# SEO settings
-title: sumarsono.net
-description: "Sebuah Kisah"
-keywords: "sumarsono, sumarsono.net, jekyll, github, arduino, raspberry pi, linux"
-
 # Site settings
-url: https://sumarsono.net
-#baseurl: "/dotX"
+title: "sumarsono.net"
+email: sumarsono.wongbandar@gmail.com
+description: "Sebuah Kisah"
 baseurl: ""
+url: "https://sumarsono.net/"
+title_description: "Sebuah Kisah"
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+#google_analytics: "UA-20365477-4"
+disqus_account: cartenoire
+github_repository: https://github.com/sumarouno
+#addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
 
-# Author settings
-author:
-  name      : Sumarsono
-  job       : DevOps
-  bio       : "Enthusiast performance, usability, always looking for the best project and good coffee."
-  thumb     : /images/author.jpg
-  email     : sumarsono.wongbandar@gmail.com
-  url       : https://sumarsono.net
-  github    : http://github.com/sumarouno
-  twitter   : http://twitter.com/sumarsono_id
-  facebook  : http://facebook.com/unomind
-  #linkedin  : http://linkedin.com/in/nandomoreirame
+# Social usernames/URLs
+twitter_username: sumarsono_id
+github_username:  sumarouno
+instagram_username: 
+reddit_username: 
+linkedin_link: 
+google_plus_link: 
+stackoverflow_link: 
+facebook_link: http://facebook.com/unomind
 
-# google_analytics: UA-52446115-1
-repo: http://github.com/sumarouno
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
-# comments
-#disqus_shortname: "fernandomoreira"
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
