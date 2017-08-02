@@ -5,35 +5,40 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-future: true
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : pretty
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: dotX
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+
 # Site settings
-title:              sumarsono.net
-author:             Sumarsono
-email:              sumarsono.wongbandar@gmail.com
-description:        'Ikatlah ilmu dengan tulisan'
-# the subpath of your site, e.g. /blog
-baseurl:            ''
-permalink:          pretty
-# the base hostname & protocol for your site
-url:                https://sumarsono.net
-github_username:    sumarouno
-telegram_username:  unomind
-disqus_username:    sumarouno
+url: https://sumarsono.net
+#baseurl: "/dotX"
+baseurl: ""
 
-# Build settings
-markdown:           kramdown
-highlighter:        rouge
+# Author settings
+author:
+  name      : Sumarsono
+  job       : DevOps
+  bio       : "Enthusiast performance, usability, always looking for the best project and good coffee."
+  thumb     : /images/author.jpg
+  email     : sumarsono.wongbandar@gmail.com
+  url       : https://sumarsono.net
+  github    : http://github.com/sumarouno
+  twitter   : http://twitter.com/sumarsono_id
+  facebook  : http://facebook.com/unomind
+  #linkedin  : http://linkedin.com/in/nandomoreirame
 
-compress_html:
-  clippings: all
-  comments:  ["<!-- ", " -->"]
-  endings:   all
+# google_analytics: UA-52446115-1
+repo: http://github.com/sumarouno
 
-sitemap:
-  lastmod:
-  priority: 0.5
-  changefreq: monthly
-  exclude: 'no'
-
-gems:
-  - jemoji
+# comments
+#disqus_shortname: "fernandomoreira"

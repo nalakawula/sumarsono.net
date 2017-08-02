@@ -1,37 +1,18 @@
 ---
 layout: default
 ---
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d %b %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  <header class="post-header intro">
+    <div class="intro-in">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    </div>
   </header>
 
-  <ul class="tags">
-    {% for tag in page.tags %}
-      <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content container" itemprop="articleBody">
     {{ content }}
-  </div>
-
-  <div class="pagination">
-    <ul style="margin-left: 0">
-      {% if page.previous %}
-        <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}"><code>&lt; Prev</code></a>
-      {% else %}
-        <code>&lt; Prev</code>
-      {% endif %}
-        &nbsp;•&nbsp;<a href="{{ BASE_PATH }}/index.html" title="Back to the front page"><code>Home</code></a>&nbsp;•&nbsp;
-      {% if page.next %}
-        <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}"><code>Next &gt;</code></a>
-      {% else %}
-        <code>Next &gt;</code>
-      {% endif %}
-    </ul>
   </div>
 
 </article>
