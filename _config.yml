@@ -5,7 +5,8 @@ description: "Sebuah Kisah"
 baseurl: ""
 url: "https://sumarsono.net/"
 title_description: "Sebuah Kisah"
-title_image: "https://secure.gravatar.com/avatar/09b66313d58720e08cf4c633528cdef8"
+#title_image: "https://secure.gravatar.com/avatar/09b66313d58720e08cf4c633528cdef8"
+title_image: "{{ site.baseurl }}/assets/img/android-chrome-512x512.png"
 #google_analytics: "UA-20365477-4"
 #disqus_account: cartenoire
 github_repository: https://github.com/sumarouno
