@@ -31,6 +31,19 @@ $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
 
+/* Colors */
+$background-color: #eeeeee !default;
+$text-color: #222831 !default;
+$muted-text-color: #393e46 !default;
+$primary-color: #0092ca !default;
+$border-color: mix(#fff, #393e46, 75%) !default;
+$footer-background-color: $primary-color !default;
+$link-color: #393e46 !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+
 /* Responsive sizes */
 $screen-sm-min: 768px;
 $screen-md-min: 992px;
